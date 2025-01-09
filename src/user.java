@@ -1,9 +1,11 @@
-public class User {
+import java.util.ArrayList;
+
+public class user {
     private String name;
     private String email;
     private ArrayList<Budget> budgets;
 
-    public User(String name, String email) {
+    public user(String name, String email) {
         this.name = name;
         this.email = email;
         this.budgets = new ArrayList<>();
